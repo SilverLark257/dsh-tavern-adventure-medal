@@ -1,0 +1,20 @@
+# 本地开发产物，不进仓库
+node_modules/
+shots/
+handoff/
+底图/
+
+# 本地测试脚本与素材
+test-client.mjs
+test-host.mjs
+test-tavern.mjs
+harness.html
+shot.mjs
+make-skin.mjs
+make-zip.ps1
+test-skin.png
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini

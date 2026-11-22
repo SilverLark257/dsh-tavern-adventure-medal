@@ -1,0 +1,27 @@
+{
+  "name": "dsh-tavern-adventure-medal",
+  "version": "1.0.0",
+  "description": "酒馆冒险奖牌生成器：读取酒馆里的角色卡与冒险存档，生成一枚可爱的冒险奖牌。",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.mjs",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "client.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "dsh-tavern-plugin"
+      ]
+    }
+  },
+  "license": "MIT"
+}
